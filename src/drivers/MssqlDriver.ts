@@ -488,6 +488,7 @@ export default class MssqlDriver extends AbstractDriver {
                 appName: "typeorm-model-generator",
                 encrypt: connectionOptons.ssl,
                 instanceName: connectionOptons.instanceName,
+                trustServerCertificate: true
             },
             password: connectionOptons.password,
             port: connectionOptons.port,
